@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.SignInPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: yellow;
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.SignInPage > button {
+  border: none;
+  font-size: 24px;
+  background-color: green;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LogInPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(245, 81, 36);
+  flex-direction: column;
+  gap: 5vh;
+}
+
+.LogInPage > button {
+  border: none;
+  font-size: 24px;
+  background-color: rgb(22, 119, 216);
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.LogInPage > .Form {
+  background-color: #65d5e4;
+  border-radius: 12px;
+}
+
+.Form {
+  background-color: blueviolet;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.Form > * {
+  border: none;
+  font-size: 20px;
+}
+
+.Form > input {
+  outline-color: yellow;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+.Form > button {
+  padding: 7px;
+  width: 13vw;
+  border-radius: 6px;
+  background-color: blue;
+  color: yellow;
+  align-self: center;
+  cursor: pointer;
+}
+
+.Error {
+  color: red;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.Sucess {
+  color: greenyellow;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+.Dashboard {
+  height: 100vh;
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25vh;
+}
+.Dashboard > h1 {
+  font-family: monospace;
+  color: #bdfa00;
+  text-shadow: 0px 0px 10px #397807;
+}
+.Dashboard > .message {
+  font-size: 34px;
+  font-family: monospace;
+  width: 60vw;
+  color: rgb(245, 81, 36);
+  text-shadow: 0px 0px 10px #ff18b4;
+}
+
+.Buttons {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Buttons > button {
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Buttons > button:nth-child(1) {
+  color: white;
+  background-color: orange;
+}
+
+.Buttons > button:last-child {
+  color: white;
+  background-color: blue;
+}
